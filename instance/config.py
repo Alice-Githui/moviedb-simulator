@@ -1,5 +1,6 @@
 #v3 auoth 
 MOVIE_API_KEY = '65c9056bf01a4f366ca9812a633f8acf'
+SECRET_KEY = '<Flask WTF Secret Key>'
 
 #65c9056bf01a4f366ca9812a633f8acf
 
