@@ -10,9 +10,14 @@
         {% else %}
         <title>Welcome to the best Movie Review Website Online</title>
         {% endif %}
-    
-    </head>
-    
+
+        <!-- Styles block -->
+        {% block styles%}
+        {{ super() }}
+        <link rel="stylesheet" href="{{url_for('static',filename='css/index.css')}}">
+        {% endblock %}
+        
+    </head>    
     <body>
         <!-- Content block -->
         {% block content %}
